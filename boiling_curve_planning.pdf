@@ -1,0 +1,43 @@
+# "Aggies do not lie, cheat, or steal, or tolerate those who do."
+# "I have not given or received any unauthorized aid on this assignment."
+#
+# Name: Ajay P
+# Section: ENGR 102 508
+# Assignment: LAB 5 individual
+# Date: 09/24/2026
+# Program to calculate total gadgets produced through a given day
+
+Step 1: Analyse the provided graph and break into sections
+Step 2: create variables for the 4 important points given
+Step 3: build linear interpolation  keeping into account the different behaviour of the graph through different sections
+Step 4: run the code  to determine a relationship
+Step 5: test for inconsistancies and  plug in test values
+Step 6: Submit to gradescope
+
+variables:
+Point_A: coordinates of point A
+Point_B: coordinates of point B
+Point_C: coordinates of point C
+Point_D: coordinates of point D
+Point_E: coordinates of point E
+Result:  give the  value of heat flux
+x1:      random input value from the user
+Slope:   holds the slope of linear interpolation
+
+Test Cases:
+
+Normal Cases:
+Test 1 at delta 1<TE<5 output should lie between: (10^3,10^4)
+Test 2 at delta 5<TE<30 output should lie between: (10^4,10^6)
+Test 3 at delta 30<TE<120 output should lie between: (10^4,10^6)
+Test 4 at delta 120<TE<1000 output should lie between: (10^4,10^7)
+Test 5 at delta TE = 2 output should lie between: (10^3,10^4)
+Test 6 at delta TE = 15 output should lie between: (10^4,10^6)
+Test 7 at delta TE = 60 output should lie between: (10^4,10^6)
+Test 8 at delta TE = 500 output should lie between: (10^4,10^7)
+
+Edge Cases:
+Test 9 at delta TE<1 output<0
+Test 10 at delta 1000<TE 10^7<output
+
+
